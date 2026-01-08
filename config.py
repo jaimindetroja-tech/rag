@@ -16,7 +16,7 @@ LLM_REQUEST_TIMEOUT = 300.0
 
 # Chat Engine Settings
 CHAT_MEMORY_TOKEN_LIMIT = 4000
-SIMILARITY_TOP_K = 100  # Increased to 100 to ensure we retrieve all relevant profiles
+SIMILARITY_TOP_K = 15  # Reduced from 100 to prevent context window overload and timeouts
 
 # System Prompt for Chat Engine
 SYSTEM_PROMPT = """
