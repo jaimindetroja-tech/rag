@@ -105,7 +105,9 @@ def create_document_content(profile: Dict[str, Any]) -> tuple[str, Dict[str, Any
     all_keywords = f"{name}, {team}, {skills}, {domains}, {', '.join(project_names)}, {', '.join(project_stacks)}"
     
     # 5. Final Text Blob for embedding
+    # We use delimiters to help the LLM strictly separate this profile from others in the context window
     text_content = (
+        f"<<< PROFILE START >>>\n"
         f"Employee Name: {name}\n"
         f"Role: {title} ({team})\n"
         f"Location: {location}\n"
@@ -114,7 +116,8 @@ def create_document_content(profile: Dict[str, Any]) -> tuple[str, Dict[str, Any
         f"Skills: {skills}\n"
         f"Domains: {domains}\n"
         f"Projects:\n{projects_text}\n"
-        f"--- Search Keywords ---\n{all_keywords}"
+        f"--- Search Keywords ---\n{all_keywords}\n"
+        f"<<< PROFILE END >>>"
     )
     
     # 6. Metadata for filtering and debugging
