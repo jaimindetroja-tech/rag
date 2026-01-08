@@ -1,0 +1,81 @@
+[
+  {
+    "id": "u001",
+    "name": "Aditi Shah",
+    "title": "ML Engineer",
+    "team": "ML Platform",
+    "location": "Bangalore",
+    "email": "aditi.shah@company.com",
+    "skills": ["RAG", "Embeddings", "Chroma", "Python", "LlamaIndex"],
+    "projects": [
+      {
+        "name": "Expertise Finder",
+        "desc": "Built internal expertise search using embeddings + vector database; grounded answers with citations."
+      }
+    ],
+    "bio": "Builds LLM-powered internal tools and semantic search systems."
+  },
+  {
+    "id": "u002",
+    "name": "David Chen",
+    "title": "Senior DevOps Engineer",
+    "team": "Infrastructure",
+    "location": "New York",
+    "email": "david.chen@company.com",
+    "skills": ["AWS", "Terraform", "Kubernetes", "ECS Fargate", "Redis"],
+    "projects": [
+      {
+        "name": "Migration to Fargate",
+        "desc": "Led the migration of core services from EC2 to ECS Fargate to reduce costs."
+      },
+      {
+        "name": "Redis Cluster Scaling",
+        "desc": "Optimized Redis TLS configuration on ElastiCache for high throughput."
+      }
+    ],
+    "bio": "Infrastructure veteran focused on scalability and security."
+  },
+  {
+    "id": "u003",
+    "name": "Sarah Miller",
+    "title": "Data Analyst",
+    "team": "Growth",
+    "location": "London",
+    "email": "sarah.m@company.com",
+    "skills": ["SQL", "dbt", "Tableau", "Snowflake"],
+    "projects": [],
+    "bio": "Translating complex data into business insights for the Growth team."
+  },
+  {
+    "id": "u004",
+    "name": "Rahul Verma",
+    "title": "Backend Lead",
+    "team": "Payments",
+    "location": "Bangalore",
+    "email": "rahul.v@company.com",
+    "skills": ["Java", "Spring Boot", "Postgres", "Kafka"],
+    "projects": [
+      {
+        "name": "Payment Gateway Integration",
+        "desc": "Integrated Stripe and PayPal; handled reliable webhook processing."
+      }
+    ],
+    "bio": null
+  },
+  {
+    "id": "u005",
+    "name": "Emily Zhang",
+    "title": "Frontend Engineer",
+    "team": "Product",
+    "location": "Remote",
+    "email": "emily.z@company.com",
+    "skills": ["React", "TypeScript", "Tailwind", "Next.js"],
+    "projects": [
+      {
+        "name": "Dashboard Redesign",
+        "desc": "Revamped the main analytics dashboard using React and D3.js."
+      }
+    ],
+    "bio": "Frontend enthusiast loving clean UI/UX."
+  }
+]
